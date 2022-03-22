@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora</title>
+        <meta name="viewport" content="width=device-width, initial-scal=1" />
+        <link rel="stylesheet" type="text/css" href="/CSS/main.css"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/div.css"/>
+        <link rel="stylesheet" type="text/css" href="/CSS/body.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script defer src="/JS/index.js"></script>
+        <script src="/JS/Calculadora.js"></script>
+        <script src="/JS/Display.js"></script>
+          </head>
+    <body>
+        <div class="screen">
+            <div id="valor-anterior"></div>
+            <div id="valor-actual"></div>
+        </div>
+        <div class="contenedor">
+            <button class="doble" onclick="display.borrarTodo()">CE</button>
+            <button onclick="display.borrar()">C</button>
+            <button class="operador" value="dividir">%</button>
+            <br>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="multiplicar">*</button>
+            <br>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <br>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="sumar">+</button>
+            <br>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador doble" value="igual">=</button>
+        </div>
+        
+    </body>
+</html>

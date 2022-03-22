@@ -1,0 +1,39 @@
+div.contenedor {
+    width: 230px;
+    height: 300px;
+   background-color: var(--primary);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+
+}
+div button{
+    width: 50px;
+    height: 50px;
+    background-color: var(--gray);
+    color: var(--secundary);
+    font-size: 22px;
+    }
+
+div button.doble{
+    width: 110px;
+    background-color: var(--black);
+    color: var(--primary);
+
+}
+div.screen {
+    height: 70px;
+    width: 230px;
+    background-color: var(--gray2);
+    color: var(--white);
+    border-bottom:groove;
+    border-color: var(--black);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+div button.igual {
+    font-size: 40px;
+}
